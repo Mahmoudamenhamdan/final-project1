@@ -1,0 +1,1143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.project {
+    background-color: rgba(237,241,252,255);
+}
+
+/* start .logo */
+.project .logo h1 {
+    font-size: 30px;
+    padding-left: 30px ;
+    padding-top: 20px;
+    color: #2061ab;
+}
+
+.project .logo ul {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    margin-top: -30px;
+    padding-bottom: 30px;
+}
+
+.project .logo li a {
+    background-color: white;
+    padding: 5px;
+}
+
+.project .logo li {
+    color: rgba(30,96,170,255);
+}
+
+.project .logo i {
+    padding: 10px;
+}
+
+/* end .logo */
+
+/* start .header */
+.project .header {
+    margin-top: -20px;
+    display: flex;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+.project .header .links ul,
+.header ul {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    list-style: none;
+    background-color: white;
+    width: 100%;
+}
+
+.project .header #page {
+    border: none;
+    font-size: 20px;
+}
+
+.project .header #page:hover {
+    color: #2061ab;
+}
+
+
+.project .header a {
+    color: black;
+}
+
+.project .header .text {
+    padding: 10px; 
+    font-size: 17px;
+    background-color: rgba(30,96,170,255);
+    text-align: center;
+}
+.project .header .text span{
+    display: block;
+}
+
+.project .header i {
+    background-color: white;
+    color: rgba(30,96,170,255);
+    padding: 5px;
+}
+
+.project .header .blue {
+    color: #074fa1;
+}
+
+.header a:hover {
+    color: #2061ab;
+}
+/* end .header */
+
+#mean {
+    display: none;
+}
+
+label {
+    display: none;
+}
+
+/* start .photo */
+.project .photo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.395), rgba(0, 0, 0, 0.395)),  url(./img/carousel-2.jpg);
+    background-size: 100% 100%;
+    height: 90vh;
+    padding-left: 10%;
+    display: grid;
+    align-items: center;
+}
+
+.project .photo .photo2 {
+    position: absolute;
+    padding-left: 20px;
+}
+
+.project .photo p,
+.project .photo pre {
+    color: white;
+    font-size: 20px;
+}
+
+.project .photo .photo2 .a {
+    font-size: 50px;
+    word-wrap: wrap;
+    width: 60%;
+}
+
+.project .photo .border {
+    width: 100px;
+    height: 60%;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white ;
+    border-left: 5px solid white;
+    position: relative;
+}
+/* end .photo */
+
+/* start photo-about################## */
+.project .photo-about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.395), rgba(0, 0, 0, 0.395)),  url(./img/bg.jpg);
+    background-size: 100%;
+    height: 50vh;
+    padding-left: 10%;
+    display: grid;
+    align-items: center;
+}
+
+.project .photo-about .photo2 {
+    position: absolute;
+    padding-left: 20px;
+}
+
+.project .photo-about p {
+    color: white;
+    font-size: 50px;
+}
+
+.project .photo-about .a{
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.project .photo-about .border {
+    width: 200px;
+    height: 60%;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white ;
+    border-left: 10px solid white;
+    position: relative;
+}
+
+/* end photo-about  */
+
+/* start .cards */
+.project .cards {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.project .card img {
+    width: 100%;
+}
+
+.project .card p {
+    width: 100%;
+    background-color:rgba(127, 161, 255, 0.479);
+    color: rgb(0, 59, 168);
+    margin-top: -5px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project .card a {
+    padding: 2px 5px;
+}
+
+.project .card a:hover {
+    background-color:rgba(127, 161, 255, 0.479);
+    color: rgb(0, 59, 168);
+    transition: 0.3s;
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+/* end .cards */
+
+/* start .about-us */
+.project .about-us h3 { 
+    color: rgb(226, 9, 9);
+}
+
+.project .about-us {
+    padding: 50px;
+    display:flex;
+}
+
+.project .about-us .left {
+    display: grid;
+}
+
+.project .about-us .left p {
+    color: rgb(20, 19, 19);
+    font-size: 50px;
+    word-wrap: wrap;
+    width: 50%;
+}
+
+.project .about-us .left h4 {
+    word-wrap: wrap;
+    width: 75%;
+}
+
+.project .about-us .left a {
+    color: #024088;
+}
+
+.project .about-us .left i {
+    color: green;
+    padding-right: 10px;
+}
+
+.project .about-us .right {
+    display: flex;
+    margin-right: 80px;
+}
+
+.project .about-us .right .one img {
+    width: 25%;
+    height: 50%;
+    position: absolute;
+}
+
+.project .about-us .right .two img {
+    margin-left: -100px;
+    margin-top: 150px;
+    width: 80%;
+    position: relative;
+}
+/* end .about-us  */
+
+/* start Emergency */
+.project .Emergency  {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    background-color: #2061ab;
+    word-wrap: 10%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.project .Emergency .text {
+    text-align: center;
+}
+
+.project .Emergency .text span{
+    display: block;
+}
+
+.project .Emergency p {
+    word-wrap: wrap;
+    width: 80%;
+    height: 90px;
+}
+
+.project .Emergency i {
+    color:#074fa1;
+    background-color: aliceblue;
+    padding: 5px;
+    /* margin: 20px; */
+}
+/* end Emergency */
+
+/* start .bannar  */
+.project .bannar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    justify-content: space-around;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.395), rgba(0, 0, 0, 0.395)),  url(./img/bg.jpg);
+    color: white;
+}
+
+.project .bannar .bannar1 {
+    text-align: center;
+    justify-content: center;
+}
+/* end .bannar  */
+
+/* start .our-services  */
+
+.project .our-services {
+    width: 100%;
+    /* height: 80vh; */
+    display: flex;
+    background-color: white;
+    padding-top: 50px;
+    gap: 50px;
+    padding-bottom: 10px;
+}
+
+.project .our-services .left{
+    width: 20%;
+    height: 70vh;
+    
+}
+
+.project .our-services .left p {
+    width: 90%;
+    /* height: 80vh; */
+    background-color: #024088;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    writing-mode:vertical-lr;
+    text-orientation:upright;
+}
+
+.project .our-services .right {
+    /* height: 80vh; */
+    gap: 100px;
+}
+
+.project .our-services .right .sewer {
+    display: flex;
+    gap: 100px;
+}
+
+.project .our-services .right p {
+    font-size: 15px;
+    color: rgb(226, 9, 9);
+}
+
+.project .our-services .right h2 {
+    font-size: 30px;
+    color: #024088;
+    padding: 10px;
+}
+
+.project .our-services .right .sewer .water {
+    /* width: 32%; */
+    /* height: 50vh; */
+    display: grid;
+    padding-left: 20px;
+    color:#024088;
+    background-color: rgba(237,241,252,255);
+    gap: 10px;
+}
+
+.project .our-services .right .sewer .water p {
+    color: black;
+    word-wrap: wrap ;
+    width: 70%;
+}
+.project .our-services .right .sewer .water h2{
+    color: rgb(20, 19, 19);
+    font-size: 25px;
+}
+
+.project .our-services .right .sewer .water a i {
+    color: green;
+}
+
+.project .our-services .right .sewer .water .icon i {
+    margin: 10px;
+    padding: 5px;
+    color: #074fa1;
+    border: 3px solid white;
+    font-size: 30px;
+}
+
+.project .our-services .right .sewer .water .link {
+    width: 90%;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project .our-services .right .sewer .water .link a {
+    color: #052f5e;
+    font-size: 15px;
+}
+
+.project .our-services .right .sewer .water .link a i {
+    padding-left: 15px;
+}
+/* end .our-services  */
+
+/* start .book  */
+.book .book1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.395), rgba(0, 0, 0, 0.395)),  url(img/carousel-1.jpg);
+    background-size: 100% 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.book .book1 .text {
+    margin-top: 60px;
+    font-size: 40px;
+    word-wrap: wrap;
+    color: white;
+    text-align: center;
+}
+
+.book .book1 a {
+    font-size: 30px;
+}
+
+.book .book1 i {
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+.book .father-book2 {
+    display: flex;
+    justify-content: center;
+}
+
+.book .father-book2 .book2 {
+    margin-top: -50px;
+    background-color: rgba(237,241,252,255);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 45vh;
+}
+
+.book .father-book2 .book2 h1 {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: #052f5e;
+}
+
+.book .father-book2 .book2 input {
+    height: 40px;
+    width: 45%;
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.book .father-book2 .book2 textarea {
+    height: 40px;
+    width: 90%;
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.book .father-book2 .book2 select {
+    height: 40px;
+    width: 45%;
+    border: none;
+    margin-top: 15px;
+    color: rgb(46, 45, 45);
+    text-align: center;
+}
+
+.book .father-book2 .book2 .submit {
+    color: white;
+    background-color: #074fa1;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.book .father-book2 .book2 .text {
+    width: 90%;
+}
+/* end .book  */
+
+/* start .expert */
+.expert {
+    margin-top: 15vh;
+    padding-bottom: 15px;
+}
+.expert .car h3 {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+
+.expert .car h2 {
+    color: #052f5e;
+    text-align: center;
+}
+
+.expert .expert-all {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.expert .expert-all .expert1 .text {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.expert .expert1 .text h2 {
+    color: #052f5e;
+}
+
+.expert .expert1 .text h4 {
+    color: rgb(83, 83, 83);
+}
+
+/* end .expert */
+
+/* start clients  */
+.clients {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.clients h3 {
+    color: red;
+    font-size: 20px;
+}
+
+.clients h1 {
+    color: #052f5e;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.clients .client {
+    display: flex;
+}
+
+.clients .client1 p {
+    background-color: cadetblue;
+    /* word-wrap: wrap ; */
+    width: 70%;
+    height: 30%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.clients .client img {
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+
+.clients .client .client1 h2 {
+    color: #024088;
+}
+
+.clients .client .client1 h4 {
+    color: rgb(83, 83, 83);
+}
+
+.clients .client .client1 p:hover {
+    background-color: #074fa1;
+    transition: 0.7s;
+}
+/* end .clients  */
+
+/* start .footer */
+
+.project .footer-big {
+    background-color: #001022;
+}
+
+.project .footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 20px;
+    color: white;
+}
+
+.project .footer li {
+    padding-top: 15px;
+}
+
+.project .footer li a {
+    color: white;
+}
+
+.project .footer i {
+    padding-right: 10px;
+}
+
+.project .footer .three li:hover {
+    transform: scale(1.4);
+    transition: 0.4s;
+}
+
+.project .footer .four li .email {
+    height: 40px;
+    width: 70%;
+    padding-left: 20px;
+}
+
+.project .footer .four li .button {
+    height: 40px;
+    margin-left: -20%;
+    padding: 7px;
+    background-color: #074fa1;
+    color: white;
+    border: none;
+}
+
+hr {
+    margin-left: 55px;
+    width: 90%;
+}
+
+.project .footer-big .footer-small {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+}
+
+/* start maps ######################## */
+.maps {
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    column-gap: 5vh;
+}
+.maps .right, 
+.maps .father-book2 {
+    width: 50%;
+}
+
+.maps .right {
+}
+
+.maps .right iframe {
+    width: 100%;
+    height: 40vh;
+}
+
+.maps .right .text p {
+    color: red;
+}
+
+.maps .right .text h2 {
+    color: #024088;
+    font-size: 30px;
+}
+
+.maps .right .text h5 {
+    color: rgb(58, 58, 58);
+}
+/* ########## */
+.maps .father-book2 {
+    margin: auto;
+    margin-bottom: 10vh ;
+}
+
+.maps .father-book2 .book2 {
+    background-color: rgba(237,241,252,255);
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 70vh;
+}
+
+.maps .father-book2 .book2 input {
+    height: 40px;
+    width: 49%;
+    border: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.maps .father-book2 .book2 .subject  {
+    height: 50px;
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+
+.maps .father-book2 .book2 .text {
+    width: 100%;
+    height: 150px;
+}
+
+.maps .father-book2 .book2 .submit {
+    color: white;
+    background-color: #074fa1;
+    width: 100%;
+    margin-top: 20px;
+}
+/* end maps  */
+
+/* start come-back  */
+.come-back .come-back1 {
+    position: fixed;
+    height: 50px;
+    bottom: 4vh;
+    left: 90%;
+    background-color: #2061ab;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    animation:imo 0.5s ease 0s infinite alternate;
+}
+
+@keyframes imo {
+    to {
+        transform: translateY(10px);
+    }
+}
+
+.come-back .come-back1 .top {
+    /* border-bottom: 2px solid  black; */
+    width: 20px;
+    text-align: center;
+}
+
+.come-back .come-back1 .down {
+    width: 20px;
+    text-align: center;
+}
+
+.come-back .come-back1 a {
+    color: white;
+}
+
+@media (max-width:1200) {
+    .project .header .text {
+        display: flex;
+        margin-left: -20px;
+    }
+
+    .our-services .right .sewer .water h2 {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 700px) {
+    #mean:checked ~ .links {
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s ease;
+        .text{
+            display: none;
+        }
+    }
+    label{
+        display: block;
+    }
+    .links{
+        display: none;
+    }
+    .project .logo ul {
+        font-size: 10px;
+    }
+    .project .logo h1 {
+        font-size: 20px;
+    }
+    .project .header ul {
+        font-size: 15px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .project .header .text {
+        font-size: 6px;
+        position: absolute;
+        top: 59px;
+        right: 25px;
+        padding: 5px;
+    }
+    .project .photo .photo2 .a {
+        font-size: 26px;
+    }
+    .project .photo p, .project .photo pre {
+        color: white;
+        font-size: 16px;
+        width: 52%;
+    }
+    .project .card p {
+        font-size: 14px;
+        }
+    .project .about-us .left p {
+        font-size: 35px;
+        width: 70%;
+        padding-right: 30px;
+    }
+    .project .about-us .right .two img {
+        margin-left: -80px;
+        margin-top: 226px;
+        width: 85%;
+    }
+    .project .about-us .right {
+        margin-right: 10px;
+    }
+    .project .Emergency p {
+        height: 80px;
+    }
+    .project .our-services {
+        gap: 7px;
+    }
+    .project .our-services .right h2 {
+        font-size: 17px;
+        padding: 6px;
+    }
+    .project .our-services .right p {
+        font-size: 13px;
+    }
+    .project .our-services .right .sewer {
+        gap: 10px;
+    }
+    .project .our-services .right .sewer .water {
+        gap: 1px;
+    }
+    .project .our-services .right .sewer .water h2 {
+        font-size: 14px;
+    }
+    .project .our-services .right .sewer .water p {
+        color: black;
+        word-wrap: wrap;
+        width: 100%;
+        font-size: 10px;
+    }
+    .project .our-services .right .sewer .water .link a {
+        font-size: 10px;
+    }
+    .project .bannar {
+        font-size: 15px;
+    }
+    .project .our-services .left p {
+        height: 374px;
+        font-size: 26px;
+    }
+    .book .father-book2 .book2 {
+        width: 60%;
+        margin-bottom: 100px;
+    }
+    .expert {
+        margin-top: 5vh;
+    }
+    .expert .expert1 .text h2 {
+        font-size: 15px;
+    }
+    .expert .expert1 .text h4 {
+        font-size: 13px;
+    }
+    .clients h3 {
+        font-size: 15px;
+    }
+    .clients h1 {
+        font-size: 24px;
+    }
+    .clients .client1 p {
+        width: 80%;
+        padding: 5px;
+    }
+    .clients .client .client1 h2 {
+        font-size: 18px;
+    }
+    .clients .client .client1 h4 {
+        font-size: 14px;
+    }
+    .project .footer li {
+        font-size: 8px;
+    }
+    .project .footer h2 {
+        font-size: 18px;
+    }
+    hr {
+        width: 80%;
+    }
+    .maps {
+        flex-direction: column;
+        align-items: center;
+    }
+    .maps .father-book2 .book2 {
+        width: 100%;
+    }
+    .maps .right, 
+    .maps .father-book2 {
+    width: 100%;
+    }
+    .maps .father-book2 .book2 input {
+        width: 100%;
+    }
+    .come-back .come-back1 {
+        left: 85%
+    }
+}
+
+@media (max-width:550px) {
+    .project .logo ul {
+        font-size: 10px;
+        gap: 3px;
+        margin-top: -24px;
+    }
+    .project .logo i {
+        padding: 5px;
+    }
+    .project .logo h1 {
+        font-size: 11px;
+    }
+    .project .header ul {
+        font-size: 6px;
+        gap: 15px;
+    }
+    .project .header .text {
+        font-size: 5px;
+        position: absolute;
+        top: 42px;
+        right: 0px;
+        padding: 5px;
+    }
+    .project .header #page {
+        font-size: 20px;
+    }
+    .project .photo .photo2 .a {
+        font-size: 25px;
+    }
+    .project .photo p, .project .photo pre {
+        font-size: 11px;
+        width: 52%;
+    }
+    .project .photo .border{
+        height: 43%;
+    }
+    .project .card p {
+        font-size: 8px;
+    }
+    .project .about-us .left p {
+        padding-right: 30px;
+    }
+    .project .about-us .right .two img {
+        margin-left: -50px;
+    }
+    .project .Emergency {
+        width: 26%;
+        margin-left: 30px;
+    }
+    .project .about-us {
+        padding: 25px;
+    }
+    .project .about-us .left p {
+        font-size: 20px;
+    }
+    .project .our-services .left {
+        /* height: 70vh; */
+    }
+    .project .our-services .right h2 {
+        font-size: 17px;
+        padding: 6px;
+    }
+    .project .our-services .right .sewer {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .project .our-services .right p {
+        font-size: 13px;
+    }
+    .project .our-services .right .sewer .water {
+        gap: 0px;
+    }
+    .project .our-services .right .sewer .water h2 {
+        font-size: 10px;
+    }
+    .project .our-services .right .sewer .water p {
+        width: 104%;
+        font-size: 5px;
+    }
+    .project .our-services .right .sewer .water .link a {
+        font-size: 8px;
+    }
+    .expert {
+        margin-top: 15vh ;
+        padding-bottom: 15px;
+    }
+    .expert .expert1 .text h2 {
+        font-size: 11px;
+    }
+    .expert .expert1 .text h4 {
+        font-size: 9px;
+    }
+    .book .father-book2 .book2 {
+        margin-top: -17px;
+    }
+    .clients .client1 p {
+        width: 71%;
+    }
+    .project .footer li {
+        font-size: 4px;
+    }
+    .project .footer .four li .email {
+        height: 20px;
+        width: 60%;
+    }
+    .project .footer .four li .button {
+        height: 21px;
+        margin-left: 0%;
+        padding: 1px;
+    }
+    .project .footer-big .footer-small {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:400px) {
+    .project .logo h1 {
+        font-size: 5px;
+    }
+    .project .logo ul {
+        font-size: 5px;
+        gap: 4px;
+        margin-top: -18px;
+    }
+    .project .header .text {
+        font-size: 5px;
+        right: 0px;
+        top: 33px;
+    }
+    .project .photo p, .project .photo pre {
+        font-size: 9px;
+        width: 74%;
+    }
+    .project .photo .photo2 .a {
+        font-size: 20px;
+    }
+    .project .card p {
+        font-size: 4px;
+        padding: 6px 0px;
+    }
+    .project .about-us .left p {
+        font-size: 20px;
+        padding-right: 30px;
+    }
+    .project .Emergency {
+        width: 41%;
+    }
+    .project .our-services .left {
+        width: 25%;
+        height: auto; 
+    }
+    .project .our-services .left p {
+        height: auto;
+        font-size: 26px;
+    }
+    .project .our-services .right {
+        padding-left: 4vh;
+    }
+    .project .our-services .right .sewer {
+        grid-template-columns: 1fr;
+    }
+    .expert {
+        margin-top: 120px;
+    }
+    .clients .client1 p {
+        width: 60%;
+        margin-left: 19px;
+        font-size: 7px;
+    }
+    .clients .client img {
+        width: 70%;
+    }
+    .clients .client .client1 h2 {
+        font-size: 10px;
+    }
+    .clients .client .client1 h4 {
+        font-size: 8px;
+    }
+    .project .footer h2 {
+        font-size: 10px;
+    }
+    .project .footer li {
+        font-size: 5px;
+    }
+    .project .footer-big .footer-small {
+        font-size: 7px;
+    }
+    .project .footer i {
+        padding-right: 5px;
+    }
+    .come-back .come-back1 {
+        left: 80%
+    }
+
+}
