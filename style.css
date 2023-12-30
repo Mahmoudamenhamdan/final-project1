@@ -684,9 +684,6 @@ hr {
     width: 50%;
 }
 
-.maps .right {
-}
-
 .maps .right iframe {
     width: 100%;
     height: 40vh;
@@ -999,9 +996,6 @@ hr {
     }
     .project .about-us .left p {
         font-size: 20px;
-    }
-    .project .our-services .left {
-        /* height: 70vh; */
     }
     .project .our-services .right h2 {
         font-size: 17px;
