@@ -144,13 +144,35 @@ label {
     word-wrap: wrap;
     width: 60%;
 }
+.project .photo .photo2 .button1 {
+    width: 100px;
+    height: 50px;
+    background-color: #024088;
+    color: white;
+    border: none;
+}
+.project .photo .photo2 .button2 {
+    width: 100px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+.project .photo .photo2 span {
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+
+.project .photo .photo2 .oo {
+    padding-bottom: 20px;
+}
 
 .project .photo .border {
     width: 100px;
     height: 60%;
-    border-top: 5px solid white;
-    border-bottom: 5px solid white ;
-    border-left: 5px solid white;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white ;
+    border-left: 10px solid white;
     position: relative;
 }
 /* end .photo */
@@ -254,7 +276,8 @@ label {
 
 .project .about-us .left h4 {
     word-wrap: wrap;
-    width: 75%;
+    width: 60%;
+    padding-bottom: 15px;
 }
 
 .project .about-us .left a {
@@ -306,15 +329,15 @@ label {
 
 .project .Emergency p {
     word-wrap: wrap;
-    width: 80%;
-    height: 90px;
+    width: 99%;
+    height: 60px;
 }
 
 .project .Emergency i {
     color:#074fa1;
     background-color: aliceblue;
     padding: 5px;
-    /* margin: 20px; */
+    margin: 10px;
 }
 /* end Emergency */
 
@@ -559,6 +582,10 @@ label {
     color: rgb(83, 83, 83);
 }
 
+.expert .expert1 :hover {
+    width: 70%;
+}
+
 /* end .expert */
 
 /* start clients  */
@@ -598,6 +625,10 @@ label {
     padding-bottom: 10px;
 }
 
+.clients .client img:hover {
+    width: 30%;
+}
+
 .clients .client .client1 h2 {
     color: #024088;
 }
@@ -608,7 +639,7 @@ label {
 
 .clients .client .client1 p:hover {
     background-color: #074fa1;
-    transition: 0.7s;
+    transition: 0.8s;
 }
 /* end .clients  */
 
@@ -668,6 +699,9 @@ hr {
     justify-content: space-around;
     color: white;
     padding: 10px;
+}
+.project .footer-big .footer-small a {
+    color: white;
 }
 
 /* start maps ######################## */
